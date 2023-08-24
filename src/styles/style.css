@@ -11655,7 +11655,7 @@ textarea.form-control-lg {
 }
 
 .middle-cta {
-  background-image: url("images/middle-cta/Background.png");
+  background-image: url("../../public/images/middle-cta/Background.png");
   background-position: center;
   background-size: cover;
 }
