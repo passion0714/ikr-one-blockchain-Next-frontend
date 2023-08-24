@@ -1,0 +1,26 @@
+@use '../custom' as *;
+
+// PULSE BORDER
+@keyframes pulse-border {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+// HERO IMAGE SLIDE TRANSITION
+@keyframes hero_image_slide {
+  from {
+    transform: translateY(-8rem);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+}
