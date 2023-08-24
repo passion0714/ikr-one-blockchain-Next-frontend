@@ -5,7 +5,7 @@ const nextConfig = {
     dirs: ['utils'],
   },
   sassOptions: {
-    includePaths: [path.join(__dirname, 'styles')],
+    includePaths: [path.join(__dirname, './src/styles')],
   },
 
 }
