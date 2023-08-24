@@ -1,5 +1,3 @@
-import '@/styles/globals.css'
-import '@/styles/style.css'
 import '@/styles/scss/style.scss'
 import '@/styles/scss/_custom.scss'
 import '@/styles/scss/bootstrap-icons.scss'
