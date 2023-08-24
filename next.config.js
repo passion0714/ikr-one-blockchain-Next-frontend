@@ -4,6 +4,10 @@ const nextConfig = {
   eslint: {
     dirs: ['utils'],
   },
+  sassOptions: {
+    includePaths: [path.join(__dirname, 'styles')],
+  },
+
 }
 
 module.exports = nextConfig
