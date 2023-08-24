@@ -15,17 +15,7 @@ export default function Document() {
         <script async src='/js/custom.js'></script>
         <script async src='/js/cv-slider-vertical.js'></script>
         <script type="text/javascript">
-          const lightboxGallery = GLightbox({
-            'selector'= '.glightbox1'
-          })
-
-          const lightbox = GLightbox({
-            'href'= 'https://youtu.be/eTD0WWFIDAg',
-            'type'= 'video',
-            'source'= 'youtube',
-            'width'= 900,
-            'autoPlayVideos'= 'true',
-         });
+          
   </script>
       </body>
     </Html>
