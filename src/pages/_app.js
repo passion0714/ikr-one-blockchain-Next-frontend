@@ -12,7 +12,8 @@ export default function App({ Component, pageProps }) {
 
         <Script src='assets/js/custom.js'/>
         <Script src='assets/js/cv-slider-vertical.js'/>
-  </>
+  <Script src="https://cdn.jsdelivr.net/npm/glightbox-ssr@3.0.8/dist/js/glightbox.min.js" />
+</>
 
   )
 }
