@@ -2,13 +2,52 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import React, { useEffect, useState } from "react";
-
+import { GLightbox } from 'glightbox';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   
+  const [lightbox, setLightbox] = useState(null);
+  const [lightboxGallery, setLightboxGallery] =useState(null);
+  useEffect(() => {
+    const setupLightbox = () => {
+    
+      const lightboxGallery = GLightbox({
+            selector: '.glightbox1'
+          })
+      const lb = GLightbox({
+        href: "https://youtu.be/eTD0WWFIDAg",
+        type: "video",
+        source: "youtube", //vimeo, youtube or local
+        width: 900,
+        autoPlayVideos: "true",
+      });
 
+      lb.on("close", () => {
+        lb.close();
+      });
+      setLightboxGallery(lightboxGallery);
+      setLightbox(lb);
+    };
+
+    setTimeout(() => {
+      setupLightbox();
+    }, 500);
+  }, []);
+
+ 
+
+  const displayGallery = (evt) => {
+    if (lightbox) {
+      console.log("trying to show movie");
+      console.log(GLightbox);
+      console.log(typeof window);
+      console.log(lightbox);
+
+      lightbox.open();
+    }
+  };
 
   return (
     <>
