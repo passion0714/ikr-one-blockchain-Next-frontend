@@ -13,6 +13,7 @@ export default function Home() {
   useEffect(() => {
     const setupLightbox = () => {
       const lb = GLightbox({
+        selector: '.glightbox1',
         href: 'https://youtu.be/eTD0WWFIDAg',
         type: "video",
         source: "youtube", //vimeo, youtube or local
