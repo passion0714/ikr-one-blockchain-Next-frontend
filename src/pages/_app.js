@@ -8,10 +8,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
     <Component {...pageProps} />
-    <Script src='/js/bootstrap.bundle.js'/>
-        <Script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
-    integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
-     />
+
     <Script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"/>
         <Script src='/js/custom.js'/>
         <Script src='/js/cv-slider-vertical.js'/>
