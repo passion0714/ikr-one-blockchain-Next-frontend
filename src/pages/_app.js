@@ -9,7 +9,6 @@ export default function App({ Component, pageProps }) {
     <>
     <Component {...pageProps} />
 
-    <Script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"/>
         <Script src='/js/custom.js'/>
         <Script src='/js/cv-slider-vertical.js'/>
         <Script type="text/javascript">
