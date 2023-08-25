@@ -8,46 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   
-  const [lightbox, setLightbox] = useState(null);
 
-  useEffect(() => {
-    const setupLightbox = () => {
-      const lb = GLightbox({
-        selector: '.glightbox1',
-        href: 'https://youtu.be/eTD0WWFIDAg',
-        type: "video",
-        source: "youtube", //vimeo, youtube or local
-        width: 900,
-        autoPlayVideos: "true",
-        plyr: {
-          config: {
-            hideControls: true,
-          },
-        },
-      });
-
-      lb.on("close", () => {
-        lb.close();
-      });
-
-      setLightbox(lb);
-    };
-
-    setTimeout(() => {
-      setupLightbox();
-    }, 500);
-  }, []);
-
-  const lightboxGallery = (evt) => {
-    if (lightbox) {
-      console.log("trying to show movie");
-      console.log(GLightbox);
-      console.log(typeof window);
-      console.log(lightbox);
-
-      lightbox.open();
-    }
-  };
 
   return (
     <>
