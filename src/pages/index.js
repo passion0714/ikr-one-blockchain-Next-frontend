@@ -12,7 +12,7 @@ export default function Home() {
   useEffect(() => {
     const setupLightbox = () => {
     
-      const lightboxGallery = GLightbox({
+      const lg = GLightbox({
             selector: '.glightbox1'
           })
       const lb = GLightbox({
@@ -26,7 +26,7 @@ export default function Home() {
       lb.on("close", () => {
         lb.close();
       });
-      setLightboxGallery(lightboxGallery);
+      setLightboxGallery(lg);
       setLightbox(lb);
     };
 
