@@ -16,7 +16,6 @@
     "bootstrap-icons": "^1.10.5",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.19",
-    "glightbox": "^3.2.0",
     "masonry-layout": "^4.2.2",
     "next": "13.4.19",
     "postcss": "^8.4.28",
@@ -24,10 +23,10 @@
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^9.1.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "sass": "^1.66.1"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^5.0.0"
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "sass": "^1.66.1"
   }
 }
