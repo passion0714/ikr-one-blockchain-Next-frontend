@@ -2,7 +2,7 @@ import '@/styles/scss/style.scss'
 import '@/styles/scss/_custom.scss'
 import '@/styles/scss/bootstrap-icons.scss'
 import '@/styles/scss/fontawesome.scss'
-import '@/styles/style.css'
+
 import Script from 'next/script'
 
 export default function App({ Component, pageProps }) {
