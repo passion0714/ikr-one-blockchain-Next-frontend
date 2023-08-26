@@ -1,6 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## IKB is a NextJS web app built with 
+
+--Bootstrap and Bootstrap Icons
+--Fortawesome/fontawesome-free
+--Glightbox 
+--Masonry Layout
+--Sass Scss
+--PurgeCas
 
 First, run the development server:
 
