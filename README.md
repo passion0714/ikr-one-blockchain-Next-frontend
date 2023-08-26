@@ -1,12 +1,12 @@
 
 ## IKB is a NextJS web app built with 
 
---Bootstrap and Bootstrap Icons
---Fortawesome/fontawesome-free
---Glightbox 
---Masonry Layout
---Sass Scss
---PurgeCas
+- Bootstrap and Bootstrap Icons
+- Fortawesome/fontawesome-free
+- Glightbox 
+- Masonry Layout
+- Sass Scss
+- PurgeCas
 
 First, run the development server:
 
