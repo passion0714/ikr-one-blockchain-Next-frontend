@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   
+  const [isLoading, setIsLoading] = useState(false)
   const [lightbox, setLightbox] = useState(null);
   const [lightboxGallery, setLightboxGallery] =useState(null);
   useEffect(() => {
@@ -47,6 +48,29 @@ export default function Home() {
       lightbox.open();
     }
   };
+  
+  
+  async function onSubmit(event) {
+    event.preventDefault()
+    setIsLoading(true) // Set loading to true when the request starts
+ 
+    try {
+      const formData = new FormData(event.currentTarget)
+      const response = await fetch('/api/login', {
+        method: 'POST',
+        body: formData,
+      })
+ 
+      // Handle response if necessary
+      const data = await response.json()
+      // ...
+    } catch (error) {
+      // Handle error if necessary
+      console.error(error)
+    } finally {
+      setIsLoading(false) // Set loading to false when the request completes
+    }
+  }
 
   return (
     <>
