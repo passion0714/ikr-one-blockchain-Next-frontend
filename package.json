@@ -11,6 +11,10 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.2",
     "@next/font": "13.4.19",
+    "@supabase/auth-helpers-nextjs": "^0.7.4",
+    "@supabase/auth-ui-react": "^0.4.2",
+    "@supabase/auth-ui-shared": "^0.1.6",
+    "@supabase/supabase-js": "^2.33.1",
     "autoprefixer": "^10.4.15",
     "bootstrap": "5.2",
     "bootstrap-icons": "^1.10.5",
