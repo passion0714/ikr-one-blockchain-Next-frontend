@@ -89,7 +89,7 @@ export default function Home() {
     id="spy-section">
     <div class="container">
       <a class="navbar-brand fw-bold text-primary pe-4" href="#">
-        <img src="https://quantumone.b-cdn.net/Ikb/IKB-SVG.svg" width={96} height={36}/>
+        <Image src="https://quantumone.b-cdn.net/Ikb/inspire-nb.png" width={255} height={98}/>
         </a>
 
       {/* COLOR SWITCHER ON MOBILE SCREEN ONLY */}
