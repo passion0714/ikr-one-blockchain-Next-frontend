@@ -81,7 +81,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-<noSSR>
+
       <body data-bs-spy="scroll" data-bs-target="#spy-section">
 
    {/* START THE NAVBAR SECTION */}
@@ -705,20 +705,20 @@ export default function Home() {
             <div class="row g-2">
               <div class="col-md mb-2">
                 <div class="form-floating">
-                  <input type="text" class="form-control" id="floatingInputFirstname" placeholder="Sammy" value=""/>
+                  <input type="text" class="form-control" id="floatingInputFirstname" placeholder="Sammy" value={floatinginputfirstname || ''}  onChange={(e) => setFloatingInputFirstname(e.target.value)}/>
                   <label for="floatingInputFirstname">First name</label>
                 </div>
               </div>
               <div class="col-md mb-2">
                 <div class="form-floating">
                   <input type="email" class="form-control" id="floatingInputEmail" placeholder="name@example.com"
-                    value=""/>
+                    value={floatinginputemail || ''} onChange={(e) => setFloatingIputEmail(e.target.value)} />
                   <label for="floatingInputEmail">Email address</label>
                 </div>
               </div>
               <div class="col-md-12 mb-2">
                 <div class="form-floating">
-                  <input type="password" class="form-control" id="floatingPassword2" placeholder="Password"/>
+                  <input type="password" class="form-control" id="floatingPassword2" placeholder="Password" value={floatingpassword2 || ''} onChange={(e) => setFloatingPassword2(e.target.value)}/>
                   <label for="floatingPassword2">Password</label>
                 </div>
               </div>
@@ -746,19 +746,19 @@ export default function Home() {
         <div class="row g-2">
           <div class="col-md mb-2">
             <div class="form-floating">
-              <input type="text" class="form-control" id="floatingInputFirstname3" placeholder="Sammy" value=""/>
+              <input type="text" class="form-control" id="floatingInputFirstname3" placeholder="Sammy" value={floatinginputfirstname3 || ''}  onChange={(e) => setFloatingInputFirstname3(e.target.value)}/>
               <label for="floatingInputFirstname3">First name</label>
             </div>
           </div>
           <div class="col-md mb-2">
             <div class="form-floating">
-              <input type="email" class="form-control" id="floatingInputEmail3" placeholder="name@example.com" value=""/>
+              <input type="email" class="form-control" id="floatingInputEmail3" placeholder="name@example.com" value={floatinginputemail3 || ''}  onChange={(e) => setFloatingInputEmail3(e.target.value)}/>
               <label for="floatingInputEmail3">Email address</label>
             </div>
           </div>
           <div class="col-md-12 mb-2">
             <div class="form-floating">
-              <input type="password" class="form-control" id="floatingPassword3" placeholder="Password"/>
+              <input type="password" class="form-control" id="floatingPassword3" placeholder="Password" value={floatingpassword3 || ''}  onChange={(e) => setFloatingPassword3(e.target.value)}/>
               <label for="floatingPassword3">Password</label>
             </div>
           </div>
@@ -792,7 +792,7 @@ export default function Home() {
 
   <div class="overlay mb-hidden"></div>
   </body>
-  </noSSR>
+  
     </>
   )
 }
