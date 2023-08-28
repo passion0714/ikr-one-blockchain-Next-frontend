@@ -683,14 +683,14 @@ export default function Home() {
       <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade show active" id="login-tab-pane" role="tabpanel" aria-labelledby="login-tab"
           tabindex="0">
-          <form action="/api/login" method="post">
+          <form action="#">
             <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="email" placeholder="name@example.com"/>
-              <label htmlFor="email">Email</label>
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"/>
+              <label htmlFor="floatingInput">Email</label>
             </div>
             <div class="form-floating">
-              <input type="text" class="form-control" id="Password" placeholder="Password"/>
-              <label htmlFor="Password">Password</label>
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password"/>
+              <label htmlFor="floatingPassword">Password</label>
             </div>
             <div class="form-floating d-grid">
               <input class="btn-flat btn-sm mt-3" type="button" value="Log in"/>
