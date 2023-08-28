@@ -2,6 +2,9 @@
 const path = require('path')
 const nextConfig = {
   reactStrictMode: true,
+  images : {
+    domains : ['quantumone.b-cdn.net', 'unpkg.com', 'lh3.googleusercontent.com'],
+  },
   eslint: {
     dirs: ['utils'],
   },
