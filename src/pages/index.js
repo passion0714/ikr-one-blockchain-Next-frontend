@@ -88,7 +88,9 @@ export default function Home() {
   <nav class="navbar navbar-expand-lg bg-transparent sticky-top border-bottom border-primary p-lg-0 p-3 menu"
     id="spy-section">
     <div class="container">
-      <a class="navbar-brand fw-bold text-primary pe-4" href="#">Inspire KB</a>
+      <a class="navbar-brand fw-bold text-primary pe-4" href="#">
+        <img src="https://quantumone.b-cdn.net/Ikb/IKB-SVG.svg" />
+        </a>
 
       {/* COLOR SWITCHER ON MOBILE SCREEN ONLY */}
 
