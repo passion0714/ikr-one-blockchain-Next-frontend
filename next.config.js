@@ -8,7 +8,7 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'quantumone.b-cdn.net',
         port: '',
-        pathname: '/Ikb/**',
+        pathname: '/Ikb/ikb-green-transparent.png',
       },
     ],
   },
