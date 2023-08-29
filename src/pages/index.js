@@ -99,11 +99,11 @@ export default function Home() {
     id="spy-section">
     <div class="container">
       <a class="navbar-brand fw-bold text-primary pe-4" href="#">
-        </a>
+        
     
-       <Image src="https://quantumone.b-cdn.net/Ikb/ikb-green-transparent.png" width={80} height={40} alt="inspire-logo" />
+       <img class="navbar-brand" src="images/hero/ikb-green-transparent.png" width={72} height={36} alt="inspire-logo" />
       {/* COLOR SWITCHER ON MOBILE SCREEN ONLY */}
-      
+      </a>
       <div class="theme-switcher switcher-sm d-flex align-items-center justify-content-center d-lg-none ms-auto me-3 me-md-4">
         <button class="btn--theme-switcher btnsm me-2 light-dark-btn">
           <i class="fas fa-moon light-dark-icon"></i>
@@ -149,7 +149,7 @@ export default function Home() {
               <a class="nav-link" href="#gallery">Gallery</a>
             </li>
             <li class="nav-item my-auto">
-              <a class="nav-link" href="https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation">Get Consult!</a>
+              <a class="nav-link" href="https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation">Free Consult</a>
             </li>
 
           </ul>
