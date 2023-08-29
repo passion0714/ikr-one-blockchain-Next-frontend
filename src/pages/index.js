@@ -149,7 +149,7 @@ export default function Home() {
               <a class="nav-link" href="#gallery">Gallery</a>
             </li>
             <li class="nav-item my-auto">
-              <a class="nav-link" href="https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation">Get Consult</a>
+              <a class="nav-link" href="https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation">Get Consult!</a>
             </li>
 
           </ul>
