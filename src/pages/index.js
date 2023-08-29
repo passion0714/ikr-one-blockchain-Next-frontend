@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import React, { useEffect, useState } from "react";
+import Link from 'next/link'
 
 
 
@@ -170,9 +171,11 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <button class="btn-flat mt-4 mt-lg-0 btn--show-modal order-1 order-lg-2" id="#">
-              <a href="https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation">Schedule consult</a>
-              </button>
+                    <Link href="https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation">
+            <button class="btn-flat mt-4 mt-lg-0 btn--show-modal order-1 order-lg-2" id="#" />
+                    </Link>
+            
+              
           </ul>
         </div>
       </div>
