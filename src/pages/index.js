@@ -99,9 +99,10 @@ export default function Home() {
     <div class="container">
       <a class="navbar-brand fw-bold text-primary pe-4" href="#">
         </a>
-       <Image src="https://quantumone.b-cdn.net/Ikb/ikb-nb-tp.svg" width={96} height={36} alt="inspire-logo" />
+      <>
+       <Image src="https://quantumone.b-cdn.net/Ikb/ikb-fit-tp.svg" width={120} height={59} alt="inspire-logo" />
       {/* COLOR SWITCHER ON MOBILE SCREEN ONLY */}
-
+      </>
       <div class="theme-switcher switcher-sm d-flex align-items-center justify-content-center d-lg-none ms-auto me-3 me-md-4">
         <button class="btn--theme-switcher btnsm me-2 light-dark-btn">
           <i class="fas fa-moon light-dark-icon"></i>
