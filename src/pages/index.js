@@ -101,7 +101,7 @@ export default function Home() {
       <a class="navbar-brand fw-bold text-primary pe-4" href="#">
         </a>
       <>
-       <Image src="https://quantumone.b-cdn.net/Ikb/ikb-fit-tp.svg" width={120} height={59} alt="inspire-logo" />
+       <Image src="https://quantumone.b-cdn.net/Ikb/ikb-fit-tp.svg" width={80} height={40} alt="inspire-logo" />
       {/* COLOR SWITCHER ON MOBILE SCREEN ONLY */}
       </>
       <div class="theme-switcher switcher-sm d-flex align-items-center justify-content-center d-lg-none ms-auto me-3 me-md-4">
