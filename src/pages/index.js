@@ -148,6 +148,10 @@ export default function Home() {
             <li class="nav-item my-auto">
               <a class="nav-link" href="#gallery">Gallery</a>
             </li>
+            <li class="nav-item my-auto">
+              <a class="nav-link" href="https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation">Get Consult</a>
+            </li>
+
           </ul>
           <ul class="navbar-nav justify-content-end flex-grow-1">
             <li class="nav-item my-auto me-lg-4 me-0">
@@ -171,9 +175,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-                    <Link href="https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation">
-            <button class="btn-flat mt-4 mt-lg-0 btn--show-modal order-1 order-lg-2" id="#" />
-                    </Link>
+            <button class="btn-flat mt-4 mt-lg-0 btn--show-modal order-1 order-lg-2" id="get-estimate">Get estimate</button>
             
               
           </ul>
