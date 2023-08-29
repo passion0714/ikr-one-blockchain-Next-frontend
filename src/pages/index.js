@@ -1,10 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from '@next/font/google'
 import React, { useEffect, useState } from "react";
-import { noSSR } from 'next/dynamic';
 
-const inter = Inter({ subsets: ['latin'] })
+
+
 
 export default function Home() {
   
