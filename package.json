@@ -32,6 +32,7 @@
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
+    "@types/bootstrap": "^5.2.6",
     "sass": "^1.66.1"
   }
 }
