@@ -17,6 +17,7 @@ export default function Home() {
   const [floatingpassword2, setFloatingPassword2] = useState(null);
   const [floatingpassword3, setFloatingPassword3] = useState(null);
   const [floatinginputemail3, setFloatingInputEmail3] = useState(null);
+  const [floatingtextareamessage, setfloatingTextareaMessage] = useState(null);
   
   
   useEffect(() => {
@@ -98,7 +99,7 @@ export default function Home() {
     id="spy-section">
     <div class="container">
       <a class="navbar-brand fw-bold text-primary pe-4" href="#">
-        <Image src="https://quantumone.b-cdn.net/Ikb/inspire-nb.png" width={96} height={36} alt="inspire-logo" />
+        <Image src="https://quantumone.b-cdn.net/Ikb/ikb-nb-tp.svg" width={96} height={36} alt="inspire-logo" />
         </a>
 
       {/* COLOR SWITCHER ON MOBILE SCREEN ONLY */}
@@ -170,7 +171,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <button class="btn-flat mt-4 mt-lg-0 btn--show-modal order-1 order-lg-2" id="get-estimate">Schedule consult!
+            <button href="https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation" class="btn-flat mt-4 mt-lg-0 btn--show-modal order-1 order-lg-2" id="#">Schedule consult!
               </button>
           </ul>
         </div>
@@ -784,7 +785,7 @@ export default function Home() {
           </div>
           <div class="col-md-12 mb-2">
             <div class="form-floating">
-              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextareaMessage"></textarea>
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextareaMessage" value={floatingtextareamessage || ''}  onChange={(e) => setFloatingTextareaMessage(e.target.value)}></textarea>
               <label for="floatingTextareaMessage">Additional comments</label>
             </div>
           </div>
