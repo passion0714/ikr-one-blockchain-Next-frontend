@@ -1,5 +1,5 @@
 
-## IKB is a NextJS web app built with 
+## IKR-One is a full stack NextJS web app built with 
 
 - Bootstrap and Bootstrap Icons
 - Fortawesome/fontawesome-free
@@ -7,8 +7,10 @@
 - Masonry Layout
 - Sass Scss
 - PurgeCas
+- Supabase Auth and DB
+- Nodemailer 
 
-## This is a work in progress. Supabase Auth and DB and nodemailer integration on deck 
+## This is a work in progress.
 
 First, run the development server:
 
