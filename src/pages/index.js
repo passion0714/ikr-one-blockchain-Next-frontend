@@ -17,7 +17,7 @@ export default function Home() {
   const [floatingpassword2, setFloatingPassword2] = useState(null);
   const [floatingpassword3, setFloatingPassword3] = useState(null);
   const [floatinginputemail3, setFloatingInputEmail3] = useState(null);
-  const [floatingtextareamessage, setfloatingTextareaMessage] = useState(null);
+  const [floatingtextareamessage, setFloatingTextareaMessage] = useState(null);
   
   
   useEffect(() => {
