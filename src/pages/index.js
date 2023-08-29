@@ -102,8 +102,9 @@ export default function Home() {
         
     
        <img class="navbar-brand" src="images/hero/ikb-green-transparent.png" width={95} height={47} alt="inspire-logo" />
-      {/* COLOR SWITCHER ON MOBILE SCREEN ONLY */}
       </a>
+      {/* COLOR SWITCHER ON MOBILE SCREEN ONLY */}
+    
       <div class="theme-switcher switcher-sm d-flex align-items-center justify-content-center d-lg-none ms-auto me-3 me-md-4">
         <button class="btn--theme-switcher btnsm me-2 light-dark-btn">
           <i class="fas fa-moon light-dark-icon"></i>
