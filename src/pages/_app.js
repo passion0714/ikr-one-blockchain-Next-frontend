@@ -4,9 +4,15 @@ import '@/styles/scss/bootstrap-icons.scss'
 import '@/styles/scss/fontawesome.scss'
 import Head from "next/head"
 import Script from 'next/script'
+import { useEffect } from 'react'
+
 
 
 export default function App({ Component, pageProps }) {
+  useEffect(() => {
+    import('bootstrap/dist/js/bootstrap');
+  }, []);
+
 
   return (
     <>
