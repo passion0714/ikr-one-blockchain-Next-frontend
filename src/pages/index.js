@@ -11,6 +11,14 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(false)
   const [lightbox, setLightbox] = useState(null);
   const [lightboxGallery, setLightboxGallery] =useState(null);
+  const [floatinginputfirstname, setFloatingInputFirstname] = useState(null);
+  const [floatinginputemail, setFloatingInputEmail] = useState(null);
+  const [floatinginputfirstname3, setFloatingInputFirstname3] = useState(null);
+  const [floatingpassword2, setFloatingPassword2] = useState(null);
+  const [floatingpassword3, setFloatingPassword3] = useState(null);
+  const [floatinginputemail3, setFloatingInputEmail3] = useState(null);
+  
+  
   useEffect(() => {
     const setupLightbox = () => {
     
@@ -712,7 +720,7 @@ export default function Home() {
               <div class="col-md mb-2">
                 <div class="form-floating">
                   <input type="email" class="form-control" id="floatingInputEmail" placeholder="name@example.com"
-                    value={floatinginputemail || ''} onChange={(e) => setFloatingIputEmail(e.target.value)} />
+                    value={floatinginputemail || ''} onChange={(e) => setFloatingInputEmail(e.target.value)} />
                   <label for="floatingInputEmail">Email address</label>
                 </div>
               </div>
