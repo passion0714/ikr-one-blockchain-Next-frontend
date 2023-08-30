@@ -214,7 +214,117 @@ export default function Home() {
     </div>
   </section>
 
-  {/* START THE FEATURED IN SECTION */}
+  {/* START THE GALLERY SECTION */}
+
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <div class="row gallery__wrapper">
+        <div class="col-md-12 col-lg-6 order-2 order-lg-1">
+          <div class="gallery__wrapper__images">
+            <div class="row g-3 g-md-4 scroller js-scroll-area row-right">
+              <div class="col-6 col-md-6 js-scroll-slider" data-scroll-area=".js-scroll-area"
+                data-auto-speed-ratio="0.5" data-scroll-ratio="0.06">
+                <div class="gallery__wrapper__images__box js-scroll-slider__item">
+                  <img src="images/gallery/image-1.jpg" alt="Gallery Image" class=""/>
+                  <div class="gallery-box-info">
+                    <div class="caption">
+                      <a href="images/gallery/image-1.jpg" class="glightbox1">
+                        <i class="fas fa-magnifying-glass"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="gallery__wrapper__images__box js-scroll-slider__item">
+                  <img src="images/gallery/image-2.jpg" alt="Gallery Image" class=""/>
+                  <div class="gallery-box-info">
+                    <div class="caption">
+                      <a href="images/gallery/image-2.jpg" class="glightbox1">
+                        <i class="fas fa-magnifying-glass"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="gallery__wrapper__images__box js-scroll-slider__item">
+                  <img src="images/gallery/Brown_before_1.jpg" alt="Gallery Image" class=""/>
+                  <div class="gallery-box-info">
+                    <div class="caption">
+                      <a href="images/gallery/Brown_before_1.jpg" class="glightbox1">
+                        <i class="fas fa-magnifying-glass"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="gallery__wrapper__images__box js-scroll-slider__item">
+                  <img src="images/gallery/Brown_after_3.jpg" alt="Gallery Image" class=""/>
+                  <div class="gallery-box-info">
+                    <div class="caption">
+                      <a href="images/gallery/Brown_after_3.jpg" class="glightbox1">
+                        <i class="fas fa-magnifying-glass"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="gallery__wrapper__images__box js-scroll-slider__item">
+                  <img src="images/gallery/image-5.jpg" alt="Gallery Image" class=""/>
+                  <div class="gallery-box-info">
+                    <div class="caption">
+                      <a href="images/gallery/image-5.jpg" class="glightbox1">
+                        <i class="fas fa-magnifying-glass"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-6 js-scroll-slider is-reverse" data-scroll-area=".js-scroll-area"
+                data-auto-speed-ratio="0.5" data-scroll-ratio="0.06">
+                <div class="gallery__wrapper__images__box js-scroll-slider__item">
+                  <img src="images/gallery/image-7.jpg" alt="Gallery Image" class=""/>
+                  <div class="gallery-box-info">
+                    <div class="caption">
+                      <a href="images/gallery/image-7.jpg" class="glightbox1">
+                        <i class="fas fa-magnifying-glass"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="gallery__wrapper__images__box js-scroll-slider__item">
+                  <img src="images/gallery/image-8.jpg" alt="Gallery Image" class=""/>
+                  <div class="gallery-box-info">
+                    <div class="caption">
+                      <a href="images/gallery/image-8.jpg" class="glightbox1">
+                        <i class="fas fa-magnifying-glass"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="gallery__wrapper__images__box js-scroll-slider__item">
+                  <img src="images/gallery/image-9.jpg" alt="Gallery Image" class=""/>
+                  <div class="gallery-box-info">
+                    <div class="caption">
+                      <a href="images/gallery/image-9.jpg" class="glightbox1">
+                        <i class="fas fa-magnifying-glass"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-6 order-1 order-lg-2">
+          <div class="gallery__wrapper--cta d-flex align-items-center justify-content-center mx-auto">
+            <h3 class="display-4 mb-4">
+              Look at what we’ve done!
+            </h3>
+            <p class="mb-4 lead">Discover what clients were able to achieve with Reno.</p>
+            <a href="#gallery" class="btn-outline btn-sm me-auto">View project gallery</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {/* START THE FEATURED IN SECTION 
 
   <section class="featured-in px-3 px-md-0 section" id="featured-in">
     <div class="container">
@@ -256,6 +366,7 @@ export default function Home() {
       </div>
     </div>
   </section>
+     */}
 
   {/* START THE PROCESS SECTION */}
 
@@ -264,13 +375,13 @@ export default function Home() {
       <div class="row mb-5">
         <div class="col-md-6">
           <div class="process__headline-wrapper me-auto">
-            <h3 class="display-3--title text-white mb-5 mb-lg-1">A simple and streamlined process</h3>
+            <h3 class="display-3--title text-primary mb-5 mb-lg-1">A simple and streamlined process</h3>
              </div>
              </div>
             
            <div class="col-md-6">
              <div class="process__intro-wrapper ms-auto pe-3">
-                <p class="display-3--intro text-white lead pb-3">
+                <p class="display-3--intro text-primary lead pb-3">
                     Work with one consultant for the entirety of your project.</p>
                      <a href="https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation" class="display-3--link text fw-bold">How can I schedule a consult?</a>
                </div>
@@ -309,8 +420,8 @@ export default function Home() {
                       <span>03</span>
                       </div>
                      <div class="process__card__body">
-                      <h5 class="process__card__body--title text-primary">Interactive Reveal</h5>
-                    <p class="process__card__body--text text-primary">Refine and finalize your vision during a face-to-face creativity session with your designer </p>
+                      <h5 class="process__card__body--title text-inherit">Interactive Reveal</h5>
+                    <p class="process__card__body--text text-inherit">Refine and finalize your vision during a face-to-face creativity session with your designer </p>
                     </div>
              
                   </div> 
@@ -454,7 +565,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-      /*
+      {/*
           <div class="col-md-6" id="backyard">
             <div class="card options__card--3 m-xl-2">
               <img src="images/options/Options 03.png" class="card--image options__card--image" alt="Backyard"/>
@@ -480,122 +591,15 @@ export default function Home() {
               </div>
             </div>
           </div>
-          */ Budget friendly business, company, one stop, but estimate
+    */}
+      
         </div>
       </div>
     </div>
   </section>
 
 
-  {/* START THE GALLERY SECTION */}
-
-  <section class="gallery section" id="gallery">
-    <div class="container">
-      <div class="row gallery__wrapper">
-        <div class="col-md-12 col-lg-6 order-2 order-lg-1">
-          <div class="gallery__wrapper__images">
-            <div class="row g-3 g-md-4 scroller js-scroll-area row-right">
-              <div class="col-6 col-md-6 js-scroll-slider" data-scroll-area=".js-scroll-area"
-                data-auto-speed-ratio="0.5" data-scroll-ratio="0.06">
-                <div class="gallery__wrapper__images__box js-scroll-slider__item">
-                  <img src="images/gallery/image-1.jpg" alt="Gallery Image" class=""/>
-                  <div class="gallery-box-info">
-                    <div class="caption">
-                      <a href="images/gallery/image-1.jpg" class="glightbox1">
-                        <i class="fas fa-magnifying-glass"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="gallery__wrapper__images__box js-scroll-slider__item">
-                  <img src="images/gallery/image-2.jpg" alt="Gallery Image" class=""/>
-                  <div class="gallery-box-info">
-                    <div class="caption">
-                      <a href="images/gallery/image-2.jpg" class="glightbox1">
-                        <i class="fas fa-magnifying-glass"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="gallery__wrapper__images__box js-scroll-slider__item">
-                  <img src="images/gallery/image-3.jpg" alt="Gallery Image" class=""/>
-                  <div class="gallery-box-info">
-                    <div class="caption">
-                      <a href="images/gallery/image-3.jpg" class="glightbox1">
-                        <i class="fas fa-magnifying-glass"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="gallery__wrapper__images__box js-scroll-slider__item">
-                  <img src="images/gallery/image-4.jpg" alt="Gallery Image" class=""/>
-                  <div class="gallery-box-info">
-                    <div class="caption">
-                      <a href="images/gallery/image-4.jpg" class="glightbox1">
-                        <i class="fas fa-magnifying-glass"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="gallery__wrapper__images__box js-scroll-slider__item">
-                  <img src="images/gallery/image-5.jpg" alt="Gallery Image" class=""/>
-                  <div class="gallery-box-info">
-                    <div class="caption">
-                      <a href="images/gallery/image-5.jpg" class="glightbox1">
-                        <i class="fas fa-magnifying-glass"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-6 col-md-6 js-scroll-slider is-reverse" data-scroll-area=".js-scroll-area"
-                data-auto-speed-ratio="0.5" data-scroll-ratio="0.06">
-                <div class="gallery__wrapper__images__box js-scroll-slider__item">
-                  <img src="images/gallery/image-7.jpg" alt="Gallery Image" class=""/>
-                  <div class="gallery-box-info">
-                    <div class="caption">
-                      <a href="images/gallery/image-7.jpg" class="glightbox1">
-                        <i class="fas fa-magnifying-glass"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="gallery__wrapper__images__box js-scroll-slider__item">
-                  <img src="images/gallery/image-8.jpg" alt="Gallery Image" class=""/>
-                  <div class="gallery-box-info">
-                    <div class="caption">
-                      <a href="images/gallery/image-8.jpg" class="glightbox1">
-                        <i class="fas fa-magnifying-glass"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="gallery__wrapper__images__box js-scroll-slider__item">
-                  <img src="images/gallery/image-9.jpg" alt="Gallery Image" class=""/>
-                  <div class="gallery-box-info">
-                    <div class="caption">
-                      <a href="images/gallery/image-9.jpg" class="glightbox1">
-                        <i class="fas fa-magnifying-glass"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-12 col-lg-6 order-1 order-lg-2">
-          <div class="gallery__wrapper--cta d-flex align-items-center justify-content-center mx-auto">
-            <h3 class="display-4 mb-4">
-              Look at what we’ve done!
-            </h3>
-            <p class="mb-4 lead">Discover what clients were able to achieve with Reno.</p>
-            <a href="#gallery" class="btn-outline btn-sm me-auto">View project gallery</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  
 
   {/* START THE BOTTOM CTA SECTION */}
 
