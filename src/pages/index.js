@@ -101,7 +101,7 @@ export default function Home() {
       <a class="navbar-brand fw-bold text-primary pe-4" href="#">
         
     
-       <img class="navbar-brand" src="images/hero/ikb-green-transparent.png" width={95} height={47} alt="inspire-logo" />
+       <img class="navbar-brand" src="images/hero/ikb-green-transparent.png" width={97} height={48} alt="inspire-logo" />
       </a>
       {/* COLOR SWITCHER ON MOBILE SCREEN ONLY */}
     
