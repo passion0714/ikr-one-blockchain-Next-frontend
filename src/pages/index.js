@@ -274,7 +274,7 @@ export default function Home() {
               Similar to a real estate agent, your personal IKB consultant handles the entire renovation process from start to finish.
               
             </p>
-            <a href="#options" class="display-3--link text-white fw-bold">How does it work?</a>
+            <a href="#options" class="display-3--link text fw-bold">How does it work?</a>
           </div>
         </div>
       </div>
