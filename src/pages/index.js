@@ -101,7 +101,7 @@ export default function Home() {
       <a class="navbar-brand fw-bold text-primary pe-4" href="#">
         
     
-       <img class="navbar-brand" src="images/hero/ikb-green-transparent.png" width={97} height={48} alt="inspire-logo" />
+       <img class="navbar-brand" src="images/hero/ikb-green-transparent.png" width={118} height={56} alt="inspire-logo" />
       </a>
       {/* COLOR SWITCHER ON MOBILE SCREEN ONLY */}
     
@@ -127,7 +127,7 @@ export default function Home() {
         aria-controls="offcanvasNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
           <h5 class="offcanvas-title fw-bold text-primary" id="offcanvasNavbarLabel">Inspire KB</h5>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -141,7 +141,7 @@ export default function Home() {
               <a class="nav-link" aria-current="page" href="#process">Process</a>
             </li>
             <li class="nav-item my-auto">
-              <a class="nav-link" href="#testimonial">Reviews</a>
+              <a class="nav-link" aria-current="page" href="#testimonial">Reviews</a>
             </li>
             <li class="nav-item my-auto">
               <a class="nav-link" href="#options">Options</a>
@@ -192,8 +192,7 @@ export default function Home() {
       <div class="row">
         <div class="col-sm-12 col-lg-6 my-auto hero__intros pt-5 pt-xl-4">
           <h1 class="display-2">Renovations simplified.</h1>
-          <p class="display-2--description">Our specialized consultants are experienced designers and project managers who are with you every step of the way.
-          </p>
+          <p class="display-2--description">Our specialized consultants are experienced designers and project managers who are with you every step of the way.</p>
           <div class="hero__intros--ctas d-flex align-items-center">
             <button class="btn-flat btn-sm btn--show-modal" id="get-estimate">Get your estimates</button>
             <div class="video-box">
@@ -266,64 +265,60 @@ export default function Home() {
         <div class="col-md-6">
           <div class="process__headline-wrapper me-auto">
             <h3 class="display-3--title mb-5 mb-lg-1">A simple and streamlined process</h3>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="process__intro-wrapper ms-auto pe-3">
-            <p class="display-3--intro lead pb-3">
-              Similar to a real estate agent, your personal IKB consultant handles the entire renovation process from start to finish.
+             </div>
+             </div>
+            
+           <div class="col-md-6">
+             <div class="process__intro-wrapper ms-auto pe-3">
+                <p class="display-3--intro lead pb-3">
+                    Work with one consultant for the entirety of your project.</p>
+                     <a href="https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation" class="display-3--link text fw-bold">How can I schedule a consult?</a>
+               </div>
+              </div>
+             </div>
+           <div class="row gx-sm-5">
+             <div class="col-xl-4 col-md-6 mb-5 mb-xl-0">
+               <div class="process__card">
+                   <div class="process__card__imgwrap">
+                     <img class="process__card__imgwrap--image img-fluid" src="images/process/Process 01.png" alt="Process 01"/>
+                     <span>01</span>
+                   </div>
+                 <div class="process__card__body">
+                   <h5 class="process__card__body--title text-secondary">Wish List</h5>
+                   <p class="process__card__body--text text-secondary">Meet your personal consultant and discuss your wish list.</p>
+                   </div>
+                  </div>
+                </div>
+             
+                <div class="col-xl-4 col-md-6 mb-5 mb-xl-0">
+                 <div class="process__card">
+                  <div class="process__card__imgwrap">
+                       <img class="process__card__imgwrap--image img-fluid" src="images/process/Process 02.png" alt="Process 02"/>
+                       <span>02</span>
+                    </div>
+                      <div class="process__card__body">
+                       <h5 class="process__card__body--title text-secondary">3-D HD Design</h5>
+                        <p class="process__card__body--text text-secondary">Your designer will prepare a 3D HD design to bring your vision to life</p>
+                      </div>
+                 </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                 <div class="process__card">
+                    <div class="process__card__imgwrap">
+                     <img class="process__card__imgwrap--image img-fluid" src="images/process/Process 03.png" alt="Process 03"/>
+                      <span>03</span>
+                      </div>
+                     <div class="process__card__body">
+                      <h5 class="process__card__body--title text-secondary">Interactive Reveal</h5>
+                    <p class="process__card__body--text text-secondary">Refine and finalize your vision during a face-to-face creativity session with your designer </p>
+                    </div>
+             
+                  </div> 
+               </div>
               
-            </p>
-            <a href="#options" class="display-3--link text fw-bold">How does it work?</a>
-          </div>
-        </div>
-      </div>
-      <div class="row gx-sm-5">
-        <div class="col-xl-4 col-md-6 mb-5 mb-xl-0">
-          <div class="process__card">
-            <div class="process__card__imgwrap">
-              <img class="process__card__imgwrap--image img-fluid" src="images/process/Process 01.png" alt="Process 01"/>
-              <span>01</span>
-            </div>
-            <div class="process__card__body">
-              <h5 class="process__card__body--title text">Plan</h5>
-              <p class="process__card__body--text">Working with one consultant throughout the process ensures optimal communication and a project done right the first time.</p>
-                
-                 
             </div>
           </div>
-        </div>
-        <div class="col-xl-4 col-md-6 mb-5 mb-xl-0">
-          <div class="process__card">
-            <div class="process__card__imgwrap">
-              <img class="process__card__imgwrap--image img-fluid" src="images/process/Process 02.png" alt="Process 02"/>
-              <span>02</span>
-            </div>
-            <div class="process__card__body">
-              <h5 class="process__card__body--title">Design</h5>
-              <p class="process__card__body--text">Our consultants use the latest 3D design software to
-                bring
-                your vision to life. 
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-4 col-md-6">
-          <div class="process__card">
-            <div class="process__card__imgwrap">
-              <img class="process__card__imgwrap--image img-fluid" src="images/process/Process 03.png" alt="Process 03"/>
-              <span>03</span>
-            </div>
-            <div class="process__card__body">
-              <h5 class="process__card__body--title">Build</h5>
-              <p class="process__card__body--text">Inspire spent years building a unique strategy ensuring that
-
-                your personal remodeling consultant creates the most personalized experience available .</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    
   </section>
 
   {/* START THE TESTIMONIAL SECTION */}
@@ -459,6 +454,7 @@ export default function Home() {
               </div>
             </div>
           </div>
+      /*
           <div class="col-md-6" id="backyard">
             <div class="card options__card--3 m-xl-2">
               <img src="images/options/Options 03.png" class="card--image options__card--image" alt="Backyard"/>
@@ -484,6 +480,7 @@ export default function Home() {
               </div>
             </div>
           </div>
+          */ Budget friendly business, company, one stop, but estimate
         </div>
       </div>
     </div>
@@ -622,7 +619,7 @@ export default function Home() {
     <div class="container py-5">
       <div class="row g-3 g-xl-5">
         <div class="col-md-12 col-lg-3 d-flex align-items-start flex-column">
-          <p class="lead mb-lg-auto order-2 order-lg-1">We’re redefining what it means to renovate.</p>
+          <p class="lead mb-lg-auto order-2 order-lg-1">The home of the specialized consultant.</p>
           <a href="#" class="footer__logo order-1 order-lg-2 mb-5 mb-lg-0">Inspire KB</a>
         </div>
         <div class="col-md-12 col-lg-9">
@@ -700,7 +697,7 @@ export default function Home() {
       </ul>
       <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade show active" id="login-tab-pane" role="tabpanel" aria-labelledby="login-tab"
-          tabindex="0">
+          tabIndex="0">
           <form action="#">
             <div class="form-floating mb-3">
               <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"/>
@@ -715,7 +712,7 @@ export default function Home() {
             </div>
           </form>
         </div>
-        <div class="tab-pane fade" id="signup-tab-pane" role="tabpanel" aria-labelledby="signup-tab" tabindex="0">
+        <div class="tab-pane fade" id="signup-tab-pane" role="tabpanel" aria-labelledby="signup-tab" tabIndex="0">
           <form action="#">
             <div class="row g-2">
               <div class="col-md mb-2">

@@ -1108,7 +1108,7 @@
     },
 
     focusableChildren(element) {
-      const focusables = ['a', 'button', 'input', 'textarea', 'select', 'details', '[tabindex]', '[contenteditable="true"]'].map(selector => `${selector}:not([tabindex^="-"])`).join(',');
+      const focusables = ['a', 'button', 'input', 'textarea', 'select', 'details', '[tabIndex]', '[contenteditable="true"]'].map(selector => `${selector}:not([tabIndex^="-"])`).join(',');
       return this.find(focusables, element).filter(el => !isDisabled(el) && isVisible(el));
     }
 
@@ -4805,7 +4805,7 @@
           return;
         }
 
-        element.removeAttribute('tabindex');
+        element.removeAttribute('tabIndex');
         element.setAttribute('aria-selected', true);
 
         this._toggleDropDown(element, true);
@@ -4836,7 +4836,7 @@
         }
 
         element.setAttribute('aria-selected', false);
-        element.setAttribute('tabindex', '-1');
+        element.setAttribute('tabIndex', '-1');
 
         this._toggleDropDown(element, false);
 
@@ -4898,7 +4898,7 @@
       }
 
       if (!isActive) {
-        child.setAttribute('tabindex', '-1');
+        child.setAttribute('tabIndex', '-1');
       }
 
       this._setAttributeIfNotExists(child, 'role', 'tab'); // set attributes to the related panel too
