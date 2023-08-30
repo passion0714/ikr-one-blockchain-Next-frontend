@@ -264,13 +264,13 @@ export default function Home() {
       <div class="row mb-5">
         <div class="col-md-6">
           <div class="process__headline-wrapper me-auto">
-            <h3 class="display-3--title mb-5 mb-lg-1">A simple and streamlined process</h3>
+            <h3 class="display-3--title text-white mb-5 mb-lg-1">A simple and streamlined process</h3>
              </div>
              </div>
             
            <div class="col-md-6">
              <div class="process__intro-wrapper ms-auto pe-3">
-                <p class="display-3--intro lead pb-3">
+                <p class="display-3--intro text-white lead pb-3">
                     Work with one consultant for the entirety of your project.</p>
                      <a href="https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation" class="display-3--link text fw-bold">How can I schedule a consult?</a>
                </div>
@@ -284,8 +284,8 @@ export default function Home() {
                      <span>01</span>
                    </div>
                  <div class="process__card__body">
-                   <h5 class="process__card__body--title text-secondary">Wish List</h5>
-                   <p class="process__card__body--text text-secondary">Meet your personal consultant and discuss your wish list.</p>
+                   <h5 class="process__card__body--title">Wish List</h5>
+                   <p class="process__card__body--text">Meet your personal consultant and discuss your wish list.</p>
                    </div>
                   </div>
                 </div>
@@ -297,8 +297,8 @@ export default function Home() {
                        <span>02</span>
                     </div>
                       <div class="process__card__body">
-                       <h5 class="process__card__body--title text-secondary">3-D HD Design</h5>
-                        <p class="process__card__body--text text-secondary">Your designer will prepare a 3D HD design to bring your vision to life</p>
+                       <h5 class="process__card__body--title text-primary">3-D HD Design</h5>
+                        <p class="process__card__body--text text-primary">Your designer will prepare a 3D HD design to bring your vision to life</p>
                       </div>
                  </div>
                 </div>
@@ -309,8 +309,8 @@ export default function Home() {
                       <span>03</span>
                       </div>
                      <div class="process__card__body">
-                      <h5 class="process__card__body--title text-secondary">Interactive Reveal</h5>
-                    <p class="process__card__body--text text-secondary">Refine and finalize your vision during a face-to-face creativity session with your designer </p>
+                      <h5 class="process__card__body--title text-primary">Interactive Reveal</h5>
+                    <p class="process__card__body--text text-primary">Refine and finalize your vision during a face-to-face creativity session with your designer </p>
                     </div>
              
                   </div> 
