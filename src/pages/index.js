@@ -265,12 +265,12 @@ export default function Home() {
       <div class="row mb-5">
         <div class="col-md-6">
           <div class="process__headline-wrapper me-auto">
-            <h3 class="display-3--title text-white mb-5 mb-lg-1">A simple and streamlined process</h3>
+            <h3 class="display-3--title text mb-5 mb-lg-1">A simple and streamlined process</h3>
           </div>
         </div>
         <div class="col-md-6">
           <div class="process__intro-wrapper ms-auto pe-3">
-            <p class="display-3--intro text-white lead pb-3">
+            <p class="display-3--intro text lead pb-3">
               Similar to a real estate agent, your personal IKB consultant handles the entire renovation process from start to finish.
               
             </p>
