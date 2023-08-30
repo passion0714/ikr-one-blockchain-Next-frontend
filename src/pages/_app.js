@@ -18,6 +18,7 @@ export default function App({ Component, pageProps }) {
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
   <link rel="stylesheet" href="assets/css/fontawesome.css"/>
   <link rel="stylesheet" href="assets/css/bootstrap-icons.css"/>
+  <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css" />
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet"/>
@@ -31,6 +32,7 @@ export default function App({ Component, pageProps }) {
         <Script src='assets/js/custom.js'/>
         <Script src='assets/js/cv-slider-vertical.js'/>
         <Script src="https://cdn.jsdelivr.net/npm/glightbox-ssr@3.0.8/dist/js/glightbox.min.js" />
+        <Script src="id='mcjs'>!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,'script','https://chimpstatic.com/mcjs-connected/js/users/fc3867172b94c7e62c9480605/abffebe03facdc9b59bd21e39.js');" />
      <Component {...pageProps} />
 </>
 
