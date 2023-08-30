@@ -114,6 +114,7 @@
   // PROCESS SECTION
   .process {
     background-color: $primary;
+    color: $primary;
   }
 
   // TESTIMONIAL SECTION
@@ -321,6 +322,13 @@
   // PROCESS SECTION
   .process {
     background-color: $secondary;
+    color: $secondary-300;
+  .display-3 {
+    color: $secondary;
+  }
+  .card {
+    color: $secondary;
+  }
   }
 
   // TESTIMONIAL SECTION
@@ -558,6 +566,10 @@
   // PROCESS SECTION
   .process {
     background-color: $theme-dark-500;
+
+  .display-3  {
+    color: $white;
+  }
   }
 
   // TESTIMONIAL SECTION
