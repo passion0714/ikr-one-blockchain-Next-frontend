@@ -450,7 +450,7 @@ export default function Home() {
           </div>
           <div class="col-md-6" id="kitchen">
             <div class="card options__card--2 m-xl-2">
-              <img src="images/gallery/Miller_after_1.jpg" class="card--image options__card--image" alt="Kitchen"/>
+              <img src="images/gallery/Miller_after_1.JPG" class="card--image options__card--image" alt="Kitchen"/>
               <div class="card-body options__card__body">
                 <h4 class="card-title options__card__body--title">Kitchen</h4>
                 <p class="card-meta">6 WEEKS TO BUILD</p>
