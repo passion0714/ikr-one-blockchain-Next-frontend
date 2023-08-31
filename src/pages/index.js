@@ -569,15 +569,14 @@ export default function Home() {
               </div>
             </div>
           </div>
-      {/*
-          <div class="col-md-6" id="backyard">
+      
+          <div class="col-md-6" id="sunroom">
             <div class="card options__card--3 m-xl-2">
-              <img src="images/options/Options 03.png" class="card--image options__card--image" alt="Backyard"/>
+              <img src="images/options/Options 03.png" class="card--image options__card--image" alt="Sunroom"/>
               <div class="card-body options__card__body">
-                <h4 class="card-title options__card__body--title">Backyard</h4>
+                <h4 class="card-title options__card__body--title">Sunroom</h4>
                 <p class="card-meta">5 WEEKS TO BUILD</p>
-                <p class="card-text options__card__body">Create your backyard getaway with durable materials and
-                  beautiful finishes.
+                <p class="card-text options__card__body">Add value and comfort to your home with a beautiful sunroom.
                 </p>
                 <button class="btn-flat btn-sm btn--show-modal" id="get-estimate">Learn more</button>
               </div>
@@ -595,7 +594,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-    */}
+  
       
         </div>
       </div>
