@@ -265,10 +265,10 @@ export default function Home() {
                   </div>
                 </div>
                 <div class="gallery__wrapper__images__box js-scroll-slider__item">
-                  <img src="images/gallery/image-5.jpg" alt="Gallery Image" class=""/>
+                  <img src="images/gallery/Miller_before_1.JPG" alt="Gallery Image" class=""/>
                   <div class="gallery-box-info">
                     <div class="caption">
-                      <a href="images/gallery/image-5.jpg" class="glightbox1">
+                      <a href="images/gallery/Miller_before_1.JPG" class="glightbox1">
                         <i class="fas fa-magnifying-glass"></i>
                       </a>
                     </div>
@@ -278,30 +278,30 @@ export default function Home() {
               <div class="col-6 col-md-6 js-scroll-slider is-reverse" data-scroll-area=".js-scroll-area"
                 data-auto-speed-ratio="0.5" data-scroll-ratio="0.06">
                 <div class="gallery__wrapper__images__box js-scroll-slider__item">
-                  <img src="images/gallery/image-7.jpg" alt="Gallery Image" class=""/>
+                  <img src="images/gallery/Miller_after_1.JPG" alt="Gallery Image" class=""/>
                   <div class="gallery-box-info">
                     <div class="caption">
-                      <a href="images/gallery/image-7.jpg" class="glightbox1">
+                      <a href="images/gallery/Miller_after_1.JPG" class="glightbox1">
                         <i class="fas fa-magnifying-glass"></i>
                       </a>
                     </div>
                   </div>
                 </div>
                 <div class="gallery__wrapper__images__box js-scroll-slider__item">
-                  <img src="images/gallery/image-8.jpg" alt="Gallery Image" class=""/>
+                  <img src="images/gallery/Miller_after_3.PNG" alt="Gallery Image" class=""/>
                   <div class="gallery-box-info">
                     <div class="caption">
-                      <a href="images/gallery/image-8.jpg" class="glightbox1">
+                      <a href="images/gallery/Miller_after_3.PNG" class="glightbox1">
                         <i class="fas fa-magnifying-glass"></i>
                       </a>
                     </div>
                   </div>
                 </div>
                 <div class="gallery__wrapper__images__box js-scroll-slider__item">
-                  <img src="images/gallery/image-9.jpg" alt="Gallery Image" class=""/>
+                  <img src="images/gallery/Gervasini_After.jpg" alt="Gallery Image" class=""/>
                   <div class="gallery-box-info">
                     <div class="caption">
-                      <a href="images/gallery/image-9.jpg" class="glightbox1">
+                      <a href="images/gallery/Gervasini_After.jpg" class="glightbox1">
                         <i class="fas fa-magnifying-glass"></i>
                       </a>
                     </div>
