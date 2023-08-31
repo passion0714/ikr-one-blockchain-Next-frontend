@@ -455,14 +455,13 @@ export default function Home() {
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star-fill"></i>
                   </div>
                   <p class="testimonial__card--text">
-                    Inspire KB saved me a ton of time by walking me through litterally every step. The consultant
-                    taught me alot about material costs while shopping with me at local suppliers.
+                    She did an amazing job right from the start - from helping us choose the new countertops, sink, faucets, custom backsplash, new shower and more to building design options to give us a preview of our choices.
                   </p>
                   <div class="testimonial__card--name">
-                    <p>— Linda R.</p>
+                    <p>— Divi M.</p>
                   </div>
                 </div>
               </div>
