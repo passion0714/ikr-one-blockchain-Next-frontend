@@ -98,11 +98,11 @@ export default function Home() {
   <nav class="navbar navbar-expand-lg bg-transparent sticky-top border-bottom border-primary p-lg-0 p-3 menu"
     id="spy-section">
     <div class="container">
-      <a class="navbar-brand fw-bold text-primary pe-4" href="#">
+    
         
     
-       <img class="navbar-brand" src="images/hero/ikb-green-transparent.png" width={118} height={56} alt="inspire-logo" />
-      </a>
+       <Image class="navbar-brand" src="https://quantumone.b-cdn.net/Ikb/ikb-nb-tp.svg" width={108} height={52} alt="inspire-logo" />
+      
       {/* COLOR SWITCHER ON MOBILE SCREEN ONLY */}
     
       <div class="theme-switcher switcher-sm d-flex align-items-center justify-content-center d-lg-none ms-auto me-3 me-md-4">
