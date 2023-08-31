@@ -3,13 +3,7 @@ const path = require('path')
 const nextConfig = {
   reactStrictMode: true,
   images : {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'quantumone.b-cdn.net',
-        pathname: '/Ikb/**',
-      },
-    ],
+    domains: ['quantumone.b-cdn.net'],
   },
   eslint: {
     dirs: ['utils'],
