@@ -101,7 +101,7 @@ export default function Home() {
     
         
     
-       <Image class="navbar-brand" src="https://quantumone.b-cdn.net/Ikb/ikb-nb-tp.svg" width={108} height={52} alt="inspire-logo" />
+       <Image src='https://quantumone.b-cdn.net/bcc-logo.svg' width={108} height={52} alt="inspire-logo" />
       
       {/* COLOR SWITCHER ON MOBILE SCREEN ONLY */}
     
