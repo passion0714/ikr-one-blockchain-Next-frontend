@@ -224,26 +224,7 @@ export default function Home() {
             <div class="row g-3 g-md-4 scroller js-scroll-area row-right">
               <div class="col-6 col-md-6 js-scroll-slider" data-scroll-area=".js-scroll-area"
                 data-auto-speed-ratio="0.5" data-scroll-ratio="0.06">
-                <div class="gallery__wrapper__images__box js-scroll-slider__item">
-                  <img src="images/gallery/image-1.jpg" alt="Gallery Image" class=""/>
-                  <div class="gallery-box-info">
-                    <div class="caption">
-                      <a href="images/gallery/image-1.jpg" class="glightbox1">
-                        <i class="fas fa-magnifying-glass"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="gallery__wrapper__images__box js-scroll-slider__item">
-                  <img src="images/gallery/image-2.jpg" alt="Gallery Image" class=""/>
-                  <div class="gallery-box-info">
-                    <div class="caption">
-                      <a href="images/gallery/image-2.jpg" class="glightbox1">
-                        <i class="fas fa-magnifying-glass"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                
                 <div class="gallery__wrapper__images__box js-scroll-slider__item">
                   <img src="images/gallery/Brown_before_1.jpg" alt="Gallery Image" class=""/>
                   <div class="gallery-box-info">
@@ -307,6 +288,29 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+                <div class="gallery__wrapper__images__box js-scroll-slider__item">
+                  <img src="images/gallery/image-2.jpg" alt="Gallery Image" class=""/>
+                  <div class="gallery-box-info">
+                    <div class="caption">
+                      <a href="images/gallery/image-2.jpg" class="glightbox1">
+                        <i class="fas fa-magnifying-glass"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="gallery__wrapper__images__box js-scroll-slider__item">
+                  <img src="images/gallery/image-1.jpg" alt="Gallery Image" class=""/>
+                  <div class="gallery-box-info">
+                    <div class="caption">
+                      <a href="images/gallery/image-1.jpg" class="glightbox1">
+                        <i class="fas fa-magnifying-glass"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                
+                
               </div>
             </div>
           </div>
@@ -408,8 +412,8 @@ export default function Home() {
                        <span>02</span>
                     </div>
                       <div class="process__card__body">
-                       <h5 class="process__card__body--title text-body">3-D HD Design</h5>
-                        <p class="process__card__body--text text-body">Your designer will prepare a 3D HD design to bring your vision to life</p>
+                       <h5 class="process__card__body--title text-body">Interactive Reveal</h5>
+                        <p class="process__card__body--text text-body">Refine and finalize your vision during a face-to-face creativity session with your designer</p>
                       </div>
                  </div>
                 </div>
@@ -420,8 +424,8 @@ export default function Home() {
                       <span>03</span>
                       </div>
                      <div class="process__card__body">
-                      <h5 class="process__card__body--title text-body">Interactive Reveal</h5>
-                    <p class="process__card__body--text text-body">Refine and finalize your vision during a face-to-face creativity session with your designer </p>
+                      <h5 class="process__card__body--title text-body">Complimentary Shopping </h5>
+                    <p class="process__card__body--text text-body">Save yourself up to a month of time and thousands of $ by physically shopping for materials with your experienced consultant! </p>
                     </div>
              
                   </div> 
