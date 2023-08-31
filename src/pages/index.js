@@ -379,13 +379,13 @@ export default function Home() {
       <div class="row mb-5">
         <div class="col-md-6">
           <div class="process__headline-wrapper me-auto">
-            <h3 class="display-3--title text-primary mb-5 mb-lg-1">A simple and streamlined process</h3>
+            <h3 class="display-3--title text-body mb-5 mb-lg-1">A simple and streamlined process</h3>
              </div>
              </div>
             
            <div class="col-md-6">
              <div class="process__intro-wrapper ms-auto pe-3">
-                <p class="display-3--intro text-primary lead pb-3">
+                <p class="display-3--intro text-body lead pb-3">
                     Work with one consultant for the entirety of your project.</p>
                      <a href="https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation" class="display-3--link text fw-bold">How can I schedule a consult?</a>
                </div>
