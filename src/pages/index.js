@@ -408,8 +408,8 @@ export default function Home() {
                        <span>02</span>
                     </div>
                       <div class="process__card__body">
-                       <h5 class="process__card__body--title text-primary">3-D HD Design</h5>
-                        <p class="process__card__body--text text-primary">Your designer will prepare a 3D HD design to bring your vision to life</p>
+                       <h5 class="process__card__body--title text-body">3-D HD Design</h5>
+                        <p class="process__card__body--text text-body">Your designer will prepare a 3D HD design to bring your vision to life</p>
                       </div>
                  </div>
                 </div>
@@ -420,8 +420,8 @@ export default function Home() {
                       <span>03</span>
                       </div>
                      <div class="process__card__body">
-                      <h5 class="process__card__body--title text-inherit">Interactive Reveal</h5>
-                    <p class="process__card__body--text text-inherit">Refine and finalize your vision during a face-to-face creativity session with your designer </p>
+                      <h5 class="process__card__body--title text-body">Interactive Reveal</h5>
+                    <p class="process__card__body--text text-body">Refine and finalize your vision during a face-to-face creativity session with your designer </p>
                     </div>
              
                   </div> 
