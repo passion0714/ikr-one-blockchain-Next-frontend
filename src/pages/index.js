@@ -320,7 +320,7 @@ export default function Home() {
             <h3 class="display-4 mb-4">
               Look at what we’ve done!
             </h3>
-            <p class="mb-4 lead">Discover what clients were able to achieve with Reno.</p>
+            <p class="mb-4 lead">Discover the transforming Inspire experience! </p>
             <a href="#gallery" class="btn-outline btn-sm me-auto">View project gallery</a>
           </div>
         </div>
@@ -387,7 +387,7 @@ export default function Home() {
              <div class="process__intro-wrapper ms-auto pe-3">
                 <p class="display-3--intro text-body lead pb-3">
                     Work with one consultant for the entirety of your project.</p>
-                     <a href="https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation" class="display-3--link text fw-bold">How can I schedule a consult?</a>
+                     <a href="https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation" class="display-3--link text-link fw-bold">How can I schedule a consult?</a>
                </div>
               </div>
              </div>
@@ -399,8 +399,8 @@ export default function Home() {
                      <span>01</span>
                    </div>
                  <div class="process__card__body">
-                   <h5 class="process__card__body--title">Wish List</h5>
-                   <p class="process__card__body--text">Meet your personal consultant and discuss your wish list.</p>
+                   <h5 class="process__card__body--title text-body">Wish List</h5>
+                   <p class="process__card__body--text text-body">Meet your personal consultant and discuss your wish list.</p>
                    </div>
                   </div>
                 </div>
