@@ -458,7 +458,7 @@ export default function Home() {
                     <i class="bi bi-star-fill"></i>
                   </div>
                   <p class="testimonial__card--text">
-                    Amazing!..she helped us choose the new countertops, sink, faucets, custom backsplash, new shower and more to building design options to 
+                    She did an amazing job right from the start - from helping us choose the new countertops, sink, faucets, custom backsplash, new shower and more to building design options to 
                     give us a preview of our choices.
                   </p>
                   <div class="testimonial__card--name">
@@ -472,15 +472,14 @@ export default function Home() {
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
-                    <i class="bi bi bi-star-half"></i>
-                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
                   </div>
                   <p class="testimonial__card--text">
-                    We have worked with many contractors over the last 20 years and Inspire by far is the best. The
-                    quality of the work was outstanding.
+                    Denise and her installers were professional, courteous and knowledgeable. The advice she gave me made my kitchen appear bigger! I am very happy with my experience.
                   </p>
                   <div class="testimonial__card--name">
-                    <p>— Veronica S.</p>
+                    <p>— Barbara F.</p>
                   </div>
                 </div>
               </div>
