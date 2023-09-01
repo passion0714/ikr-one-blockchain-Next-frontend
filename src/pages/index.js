@@ -176,8 +176,12 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <button class="btn-flat mt-4 mt-lg-0 btn--show-modal order-1 order-lg-2" id="get-estimate">Get estimate</button>
-            
+            <Link href="https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation" passHref> 
+            <button class="btn-flat mt-4 mt-lg-0 btn--show-modal order-1 order-lg-2" id="get-estimate">
+            <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+    Get Estimate</span>
+   </button>
+            </Link>
               
           </ul>
         </div>
@@ -633,10 +637,8 @@ export default function Home() {
               <div class="row g-3 g-xl-5">
                 <div class="col-md-12 col-lg-3 footer__col pb-1 pb-lg-0">
                   <hr class="footer__col--headline"/>
-                  <p class="mt-4 mt-lg-0">Inspire simplifies the chaos and costs of construction by bringing design,
-                    sourcing, and vetted
-                    contractors under one roof without the overhead.</p>
-                  <p class="footer__col--copyright mb-auto">© Inspire KB 2023</p>
+                  <p class="mt-4 mt-lg-0">Inspire's personalized consultants turns the costs and chaos of remodeling into a </p>
+                  <p class="footer__col--copyright mb-auto">© Inspire HR 2023</p>
 
                 </div>
                 <div class="col-md-12 col-lg-3 footer__col pb-1 pb-lg-0">
@@ -644,7 +646,7 @@ export default function Home() {
                   <ul class="footer__col--links mt-5 mt-lg-0">
                     <li><a href="#bathroom">Bathrooms</a></li>
                     <li><a href="#kitchen">Kitchens</a></li>
-                    <li><a href="#backyard">Backyards</a></li>
+                    <li><a href="#backyard">Sunrooms</a></li>
                     <li><a href="#basement">Basements</a></li>
                     <li><a href="#process">How it works</a></li>
                     <li><a href="#gallery">Gallery</a></li>
@@ -656,7 +658,7 @@ export default function Home() {
                   <hr class="footer__col--headline"/>
                   <ul class="footer__col--links mt-5 mt-lg-0">
                     <li><a href="tel:+17173158589">7173158589</a></li>
-                    <li><a href="mailto:inquire@ikb.com">inquire@ikb.com</a></li>
+                    <li><a href="mailto:inquire@ikb.com">inquire@inspirehrd.com</a></li>
                   </ul>
                 </div>
                 <div class="col-md-12 col-lg-3 footer__col d-flex flex-column">
