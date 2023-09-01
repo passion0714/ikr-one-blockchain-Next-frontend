@@ -178,7 +178,7 @@ export default function Home() {
             </div>
             
             <Link href="https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation" passHref> 
-            <button class="btn-flat mt-4 mt-lg-0 order-1 order-lg-2" id="get-estimate" onClick="window.location.href='https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation'">
+            <button class="btn-flat btn-sm mt-4 mt-lg-0 order-1 order-lg-2" id="get-estimate" onClick="window.location.href='https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation'">
             Get estimate
    </button>
             </Link>
