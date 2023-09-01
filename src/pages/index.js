@@ -286,6 +286,16 @@ export default function Home() {
                   <img src="images/gallery/Gervasini_After.jpg" alt="Gallery Image" class=""/>
                   <div class="gallery-box-info">
                     <div class="caption">
+                      <a href="images/gallery/Gervasini_Before1.jpg" class="glightbox1">
+                        <i class="fas fa-magnifying-glass"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="gallery__wrapper__images__box js-scroll-slider__item">
+                  <img src="images/gallery/Gervasini_After.jpg" alt="Gallery Image" class=""/>
+                  <div class="gallery-box-info">
+                    <div class="caption">
                       <a href="images/gallery/Gervasini_After.jpg" class="glightbox1">
                         <i class="fas fa-magnifying-glass"></i>
                       </a>
