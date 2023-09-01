@@ -198,8 +198,8 @@ export default function Home() {
           <h1 class="display-2">Renovations simplified.</h1>
           <p class="display-2--description">Our specialized consultants are experienced designers and project managers who are with you every step of the way.</p>
           <div class="hero__intros--ctas d-flex align-items-center">
-            <button class="btn-flat btn-sm btn--show-modal" id="get-estimate">Get your estimates</button>
-            <div class="video-box">
+            <button class="btn-flat btn-sm" onClick="window.location.href='https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation'" id="get-estimate">Get your estimates</button>
+            {/* <div class="video-box">
               <a href="#" class="glightbox">
                 <span>
                   <i class="fas fa-play-circle"></i>
@@ -208,6 +208,7 @@ export default function Home() {
                 <span class="border-animation border-animation--border-2"></span>
               </a>
             </div>
+            */}
           </div>
         </div>
         <div class="col-sm-12 col-lg-6 hero__feat-images">
