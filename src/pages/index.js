@@ -458,7 +458,8 @@ export default function Home() {
                     <i class="bi bi-star-fill"></i>
                   </div>
                   <p class="testimonial__card--text">
-                    She did an amazing job right from the start - from helping us choose the new countertops, sink, faucets, custom backsplash, new shower and more to building design options to give us a preview of our choices.
+                    Amazing!..she helped us choose the new countertops, sink, faucets, custom backsplash, new shower and more to building design options to 
+                    give us a preview of our choices.
                   </p>
                   <div class="testimonial__card--name">
                     <p>— Divi M.</p>
