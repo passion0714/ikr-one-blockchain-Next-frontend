@@ -493,11 +493,10 @@ export default function Home() {
                     <i class="bi bi-star-fill"></i>
                   </div>
                   <p class="testimonial__card--text">
-                    The company is very customer service oriented and the communication was excellent! There were people
-                    working every day.
+                    We had our kitchen remodeled. I cannot say enough good things about Denise, the meticulous contractors, and experience overall!
                   </p>
                   <div class="testimonial__card--name">
-                    <p>— Adams T.</p>
+                    <p>— Robin B.</p>
                   </div>
                 </div>
               </div>
