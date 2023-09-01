@@ -176,13 +176,14 @@ export default function Home() {
                 </div>
               </div>
             </div>
+            <div class="offcanvas-body" >
             <Link href="https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation" passHref> 
             <button class="btn-flat mt-4 mt-lg-0 btn--show-modal order-1 order-lg-2" id="get-estimate">
             <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
     Get Estimate</span>
    </button>
             </Link>
-              
+              </div>
           </ul>
         </div>
       </div>
