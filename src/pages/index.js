@@ -85,7 +85,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Inspire Kitchen Remodeling</title>
+        <title>Inspire Home Remodeling</title>
         <meta name="description" content="Remodeling simplified" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -625,7 +625,7 @@ export default function Home() {
       <div class="row g-3 g-xl-5">
         <div class="col-md-12 col-lg-3 d-flex align-items-start flex-column">
           <p class="lead mb-lg-auto order-2 order-lg-1">The home of the specialized consultant.</p>
-          <a href="#" class="footer__logo order-1 order-lg-2 mb-5 mb-lg-0">Inspire KB</a>
+          <a href="#" class="footer__logo order-1 order-lg-2 mb-5 mb-lg-0">Inspire HR</a>
         </div>
         <div class="col-md-12 col-lg-9">
           <div class="row">
