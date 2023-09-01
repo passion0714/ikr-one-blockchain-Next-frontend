@@ -420,7 +420,7 @@ export default function Home() {
                 <div class="col-xl-4 col-md-6">
                  <div class="process__card">
                     <div class="process__card__imgwrap">
-                     <img class="process__card__imgwrap--image img-fluid" src="images/process/process_shopping_3.JPG" alt="Process 03"/>
+                     <img class="process__card__imgwrap--image img-fluid" src="images/process/Process 03.png" alt="Process 03"/>
                       <span>03</span>
                       </div>
                      <div class="process__card__body">
