@@ -101,7 +101,7 @@ export default function Home() {
     
         
     
-       <Image src='https://quantumone.b-cdn.net/IHR-new.png' width={124} height={62} alt="inspire-logo" />
+       <Image src='https://quantumone.b-cdn.net/IHR-ad.PNG' width={110} height={66} alt="inspire-logo" />
       
       {/* COLOR SWITCHER ON MOBILE SCREEN ONLY */}
     
