@@ -403,7 +403,7 @@ export default function Home() {
            <div class="col-md-6">
              <div class="process__intro-wrapper ms-auto pe-3">
                 <p class="display-3--intro text-body fa-inverse lead pb-3">
-                    Work with one consultant for the entirety of your project.</p>
+                    You'll work with the same consultant for the entirety of the project. It's helpful to think of our consultants as designers, project managers, purchasing agents, and advisors wrapped into one. </p>
                      <a href="https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation" class="display-3--link text-link fw-bold">How can I schedule a consult?</a>
                </div>
               </div>
