@@ -195,7 +195,7 @@ export default function Home() {
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-lg-6 my-auto hero__intros pt-5 pt-xl-4">
-          <h1 class="display-2">Renovations simplified.</h1>
+          <h1 class="display-2">Remodeling simplified.</h1>
           <p class="display-2--description">Our specialized consultants are experienced designers and project managers who are with you every step of the way.</p>
           <div class="hero__intros--ctas d-flex align-items-center">
             <Link class="text-decoration-none" href="https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation" passHref>
