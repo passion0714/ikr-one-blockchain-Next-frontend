@@ -3,7 +3,12 @@ import Image from 'next/image'
 import React, { useEffect, useState } from "react";
 import Link from 'next/link'
 
-
+export const metadata = {
+  title: 'Inspire Home Remodeling | Best 3-D HD design, renovation, and home make-over deals on kitchens, baths, sunrooms, pergolas, and basements in central PA including Camp Hill, Harrisburg, Mechanicsburg, Hershey, Linglestown, Carlise, West Shore, East Shore, York, Lancaster.',
+  description: 'Save thousands of $ and up to 30 days of your time remodeling | renovating your home with Inspire Home Remodeling.',
+  category: 'General home remodeling', 
+  
+}
 
 
 export default function Home() {
@@ -81,11 +86,6 @@ export default function Home() {
       setIsLoading(false) // Set loading to false when the request completes
     }
   }
-  
-  export const metadata = {
-  title: 'Inspire Home Remodeling | Best 3-D HD design, renovation, and home make-over deals on kitchens, baths, sunrooms, pergolas, and basements in central PA including Camp Hill, Harrisburg, Mechanicsburg, Hershey, Linglestown, Carlise, West Shore, East Shore, York, Lancaster.',
-  description: 'Save thousands of $ and up to 30 days of your time remodeling | renovating your home with Inspire.',
-}
 
   return (
     <>
