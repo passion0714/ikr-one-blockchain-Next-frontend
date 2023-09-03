@@ -634,7 +634,7 @@ export default function Home() {
           <button class="btn-flat btn-flat-white btn-sm btn--show-modal" id="login-signup">Schedule a call</button>
         </div>
         <div class="col-md-12 col-lg-7 mt-auto">
-          <p class="bottom-cta__email display-3 text-white text-lg-end mb-0 mb-lg-5">hello@ikb.com</p>
+          <p class="bottom-cta__email display-3 text-white text-lg-end mb-0 mb-lg-5">inquire@inspirehrd.com</p>
         </div>
       </div>
     </div>
@@ -676,7 +676,7 @@ export default function Home() {
                   <hr class="footer__col--headline"/>
                   <ul class="footer__col--links mt-5 mt-lg-0">
                     <li><a href="tel:+17173158589">7173158589</a></li>
-                    <li><a href="mailto:inquire@ikb.com">inquire@inspirehrd.com</a></li>
+                    <li><a href="mailto:inquire@inspirehrd.com">inquire@inspirehrd.com</a></li>
                   </ul>
                 </div>
                 <div class="col-md-12 col-lg-3 footer__col d-flex flex-column">
@@ -685,8 +685,8 @@ export default function Home() {
                     <li><a href="#">Terms of Use</a></li>
                     <li><a href="#">Privacy Policy</a></li>
                   </ul>
-                  <p class="footer__col--credit">Developed by <a class="fw-semibold" href="https://blockchain-company.io"
-                      target="_blank">The Blockchain Company.IO</a></p>
+                  {/* <p class="footer__col--credit">Developed by <a class="fw-semibold" href="https://blockchain-company.io"
+                      target="_blank">The Blockchain Company.IO</a></p> */}
                 </div>
               </div>
             </div>
