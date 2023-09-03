@@ -81,12 +81,17 @@ export default function Home() {
       setIsLoading(false) // Set loading to false when the request completes
     }
   }
+  
+  export const metadata = {
+  title: 'Inspire Home Remodeling | Best 3-D HD design, renovation, and home make-over deals on kitchens, baths, sunrooms, pergolas, and basements in central PA including Camp Hill, Harrisburg, Mechanicsburg, Hershey, Linglestown, Carlise, West Shore, East Shore, York, Lancaster.',
+  description: 'Save thousands of $ and up to 30 days of your time remodeling | renovating your home with Inspire.',
+}
 
   return (
     <>
       <Head>
         <title>Inspire Home Remodeling best design, renovation, and home make-over deals on kitchens, baths, sunrooms in central PA including Camp Hill, Harrisburg, Mechanicsburg, Hershey, Linglestown, Camp Hill, West Shore, East Shore, York, Lancaster. </title>
-        <meta name="description" content="Remodeling simplified" />
+        <meta name="description" content="Save thousands of $ and up to 30 days of your time remodeling | renovating your home with Inspire." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
