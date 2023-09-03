@@ -800,8 +800,8 @@ export default function Home() {
                 <option selected>Select option</option>
                 <option value="1">Bathroom</option>
                 <option value="2">Kitchen</option>
-                <option value="3">Backyard</option>
-                <option value="3">Basement</option>
+                <option value="3">Sunroom</option>
+                <option value="4">Basement</option>
               </select>
               <label for="floatingSelectOption">Interested option</label>
             </div>
