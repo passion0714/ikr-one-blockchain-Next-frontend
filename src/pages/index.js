@@ -656,7 +656,7 @@ export default function Home() {
               <div class="row g-3 g-xl-5">
                 <div class="col-md-12 col-lg-3 footer__col pb-1 pb-lg-0">
                   <hr class="footer__col--headline"/>
-                  <p class="mt-4 mt-lg-0">Inspire's personalized consultants turns the costs and chaos of remodeling into a </p>
+                  <p class="mt-4 mt-lg-0">Inspire's personal consultants will save you $1K's and up to 30 days of your time. Schedule a consult to learn more.</p>
                   <p class="footer__col--copyright mb-auto">© Inspire HR 2023</p>
 
                 </div>
