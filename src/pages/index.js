@@ -150,9 +150,6 @@ export default function Home() {
               <a class="nav-link" aria-current="page" href="#testimonial">Reviews</a>
             </li>
             <li class="nav-item my-auto">
-              <a class="nav-link" href="#options">Options</a>
-            </li>
-            <li class="nav-item my-auto">
               <a class="nav-link" href="#gallery">Gallery</a>
             </li>
             <li class="nav-item my-auto">
