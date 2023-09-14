@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: 'Inspire Home Remodeling | Best 3-D HD design, renovation, and home make-over deals on kitchens, baths, sunrooms, pergolas, and basements in central PA including Camp Hill, Harrisburg, Mechanicsburg, Hershey, Linglestown, Carlise, West Shore, East Shore, York, Lancaster.',
-  description: 'Save thousands of $ and up to 30 days of your time remodeling | renovating your home with Inspire Home Remodeling.',
+  description: 'Modernize your home with a locally owned and operated business. Our professional designers work with all budgets and manage your project in its entirety with a highly personalized approach. Learn more and schedule up to two free consults at www.inspirehrd.com..',
   category: 'General home remodeling', 
   keywords: ['home renovation near me', 'home renovation loan', 'home renovation ideas', 'home remodeling near me', 'home remodeling contractors near me', 'renovation contractor 17055', 'remodeling contractor west shore home', 'home improvement 0 down', 'home renovation near Harrisburg PA', 'kitchen and bath remodeling contractors', 'home renovation loan calcutor', 'kitchen remodeling 17011', 'home renovation grants', 'home remodeling contractor near 17025'],
   
@@ -92,7 +92,7 @@ export default function Home() {
     <>
       <Head>
         <title>Inspire Home Remodeling best design, renovation, and home make-over deals on kitchens, baths, sunrooms in central PA including Camp Hill, Harrisburg, Mechanicsburg, Hershey, Linglestown, Camp Hill, West Shore, East Shore, York, Lancaster. </title>
-        <meta name="description" content="Save thousands of $ and up to 30 days of your time remodeling | renovating your home with Inspire." />
+        <meta name="description" content="Modernize your home with a locally owned and operated business. Our professional designers work with all budgets and manage your project in its entirety with a highly personalized approach. Learn more and schedule up to two free consults at wwww.inspirehrd.com." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -532,7 +532,12 @@ export default function Home() {
       </div>
       <div class="row pt-5">
         <div class="col-md-12 text-center">
-          <button class="btn-outline btn-outline--dark btn--show-modal" id="get-estimate">Get your estimate</button>
+        <Link class="text-decoration-none mx-auto" href="https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation" passHref> 
+            <button class="btn-outline btn-sm btn--outline--dark" id="get-estimate" onClick="window.location.href='https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation'">
+            Get estimate
+   </button>
+            </Link>
+          
         </div>
       </div>
     </div>
@@ -546,7 +551,13 @@ export default function Home() {
         <div class="col-m-12">
           <div class="middle-cta__wrapper d-flex align-items-center justify-content-center mx-auto">
             <h1 class="display-3">Renovate your home as low as 0% APR</h1>
-            <button class="btn-flat btn-sm btn--show-modal" id="login-signup">Explore financing</button>
+            <Link class="text-decoration-none mx-auto" href="https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation" passHref> 
+            <button class="btn-flat btn-sm" id="get-estimate" onClick="window.location.href='https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation'">
+            Explore financing
+   </button>
+            </Link>
+          
+            
           </div>
         </div>
       </div>
@@ -572,7 +583,12 @@ export default function Home() {
                 <p class="card-meta">4 WEEKS TO BUILD</p>
                 <p class="card-text options__card__body">Build your dream bathroom with premium fixtures and finishes.
                 </p>
-                <button class="btn-flat btn-sm btn--show-modal" id="get-estimate">Learn more</button>
+                <Link class="text-decoration-none mx-auto" href="https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation" passHref> 
+            <button class="btn-flat btn-sm" id="get-estimate" onClick="window.location.href='https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation'">
+            Learn more
+   </button>
+            </Link>
+                
               </div>
             </div>
           </div>
@@ -583,7 +599,12 @@ export default function Home() {
                 <h4 class="card-title options__card__body--title">Kitchen</h4>
                 <p class="card-meta">6 WEEKS TO BUILD</p>
                 <p class="card-text options__card__body">Create your ideal kitchen with quality, lasting materials.</p>
-                <button class="btn-flat btn-sm btn--show-modal" id="get-estimate">Learn more</button>
+                <Link class="text-decoration-none mx-auto" href="https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation" passHref> 
+            <button class="btn-flat btn-small" id="get-estimate" onClick="window.location.href='https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation'">
+            Learn more
+   </button>
+            </Link>
+                
               </div>
             </div>
           </div>
@@ -596,7 +617,11 @@ export default function Home() {
                 <p class="card-meta">5 WEEKS TO BUILD</p>
                 <p class="card-text options__card__body">Add value and comfort to your home with a beautiful sunroom.
                 </p>
-                <button class="btn-flat btn-sm btn--show-modal" id="get-estimate">Learn more</button>
+                <Link class="text-decoration-none mx-auto" href="https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation" passHref> 
+            <button class="btn-flat btn-sm" id="get-estimate" onClick="window.location.href='https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation'">
+            Learn more
+   </button>
+            </Link>
               </div>
             </div>
           </div>
@@ -608,7 +633,12 @@ export default function Home() {
                 <p class="card-meta">7 WEEKS TO BUILD</p>
                 <p class="card-text options__card__body">Create your backyard getaway with durable materials and
                   beautiful finishes.</p>
-                <button class="btn-flat btn-sm btn--show-modal" id="get-estimate">Learn more</button>
+                  <Link class="text-decoration-none mx-auto" href="https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation" passHref> 
+            <button class="btn-flat btn-sm" id="get-estimate" onClick="window.location.href='https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation'">
+            Learn more
+   </button>
+            </Link>
+              
               </div>
             </div>
           </div>
@@ -629,7 +659,12 @@ export default function Home() {
       <div class="row g-3 g-xl-5">
         <div class="col-md-12 col-lg-5 mb-5 mb-lg-0">
           <h3 class="display-4 text-white">Let’s work on your project together!</h3>
-          <button class="btn-flat btn-flat-white btn-sm btn--show-modal" id="login-signup">Schedule a call</button>
+          <Link class="text-decoration-none mx-auto" href="https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation" passHref> 
+            <button class="btn-flat btn-flat-white btn-sm" id="get-estimate" onClick="window.location.href='https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation'">
+            Schedule a call
+   </button>
+            </Link>
+          
         </div>
         <div class="col-md-12 col-lg-7 mt-auto">
           <p class="bottom-cta__email display-3 text-white text-lg-end mb-0 mb-lg-5">inquire@inspirehrd.com</p>
@@ -644,8 +679,10 @@ export default function Home() {
     <div class="container py-5">
       <div class="row g-3 g-xl-5">
         <div class="col-md-12 col-lg-3 d-flex align-items-start flex-column">
-          <p class="lead mb-lg-auto order-2 order-lg-1">The home of the specialized consultant.</p>
-          <a href="#" class="footer__logo order-1 order-lg-2 mb-5 mb-lg-0">Inspire HR</a>
+          <p class="lead mb-lg-auto order-2 order-lg-1">Modernize your home with a locally owned and operated business who works with all budgets and manage your project in its entirety with a highly personalized approach.</p>
+          <Link class="text-decoration-none">
+          <Image href="#" class="footer__logo order-1 order-lg-2 mb-5 mb-lg-0" src="https://quantumone.b-cdn.net/Ihr-svg.svg" />
+          </Link>
         </div>
         <div class="col-md-12 col-lg-9">
           <div class="row">
