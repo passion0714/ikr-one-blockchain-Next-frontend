@@ -681,7 +681,7 @@ export default function Home() {
         <div class="col-md-12 col-lg-3 d-flex align-items-start flex-column">
           <p class="lead mb-lg-auto order-2 order-lg-1">Modernize your home with a locally owned and operated business who works with all budgets and manage your project in its entirety with a highly personalized approach.</p>
           <Link class="text-decoration-none">
-          <Image href="#" class="footer__logo order-1 order-lg-2 mb-5 mb-lg-0" src="https://quantumone.b-cdn.net/Ihr-svg.svg" />
+          <Image href="#" class="footer__logo order-1 order-lg-2 mb-5 mb-lg-0" src="https://quantumone.b-cdn.net/Ihr-svg.svg" width={110} height={60} alt="inspire-logo"/>
           </Link>
         </div>
         <div class="col-md-12 col-lg-9">
