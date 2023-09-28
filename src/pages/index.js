@@ -703,8 +703,8 @@ export default function Home() {
                     <li><a href="#basement">Basements</a></li>
                     <li><a href="#process">How it works</a></li>
                     <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Guides</a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100090571385202">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/inspirehomeremodelers">Instagram</a></li>
                   </ul>
                 </div>
                 <div class="col-md-12 col-lg-3 footer__col pb-1 pb-lg-0">
