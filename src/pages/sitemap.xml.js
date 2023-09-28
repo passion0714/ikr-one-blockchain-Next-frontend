@@ -7,7 +7,6 @@ function generateSiteMap() {
         <loc>${homepage}</loc>
         <lastmod>${new Date().toISOString()}</lastmod>
       </url>
-      <url>}
       </urlset>
       `;
 }
