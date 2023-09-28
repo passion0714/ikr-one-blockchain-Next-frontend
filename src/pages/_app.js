@@ -32,7 +32,6 @@ export default function App({ Component, pageProps }) {
         <Script src='assets/js/custom.js'/>
         <Script src='assets/js/cv-slider-vertical.js'/>
         <Script src="https://cdn.jsdelivr.net/npm/glightbox-ssr@3.0.8/dist/js/glightbox.min.js" />
-        <Script src="id='mcjs'>!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,'script','https://chimpstatic.com/mcjs-connected/js/users/fc3867172b94c7e62c9480605/abffebe03facdc9b59bd21e39.js');" />
      <Component {...pageProps} />
 </>
 
