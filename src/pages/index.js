@@ -4,11 +4,11 @@ import React, { useEffect, useState } from "react";
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Inspire Home Remodeling | Kitchen, bath, sunroom remodeling central PA',
-  description: 'Remodeling simplified. Our specialized consultants are experienced designers and project managers who are with you every step of the way. Remodel your home with a locally owned and operated business. Our professional designers work with all budgets and manage your project in its entirety with a highly personalized approach. www.inspirehrd.com.',
+  title: 'Inspire Home Remodeling | Kitchen, bath, sunroom remodeling in central PA',
+  description: 'Remodeling simplified. Our specialized consultants are experienced designers and project managers who are with you every step of the way.',
   category: 'General home remodeling', 
   keywords: ['home remodeling near me', 'home remodeling loan', 'home remodeling ideas', 'home remodeling contractors near me', 'kitchen remodeling contractors near me', 'home remodeling 17055', 'west shore home', 'home improvement 0 down', 'home remodeling near Harrisburg PA', 'kitchen and bath remodeling contractors', 'home renovation loan calcutor', 'kitchen remodeling 17011', 'home renovation grants', 'home remodeling contractor near 17025', 'home remodeling central PA', 'central pa home pros', 'home pros of central pa', 'home remodeling harrisburg pa', 'kitchen remodeling harrisburg pa', 'bathroom remodeling harrisburg pa', 'home remodeling pros of central pa', 'home remodeling pros of central pa reviews', 'home remodeling pros of central pa llc', 'home remodeling pros of central pa photos', 'whole house remodel contractors near me', 'home remodeling where to start', 'home construction harrisburg pa', 'your bath and kitchen', 'home remodeling designer near me', 'bathroom remodeling near me', 'home renovation central pa', 'examples of home repairs', 'home renovation contractors harrisburg pa', 'basement remodeling' ],
-  
+
 }
 
 
@@ -91,8 +91,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Inspire Home Remodeling best design, renovation, and home make-over deals on kitchens, baths, sunrooms in central PA including Camp Hill, Harrisburg, Mechanicsburg, Hershey, Linglestown, Camp Hill, West Shore, East Shore, York, Lancaster. </title>
-        <meta name="description" content="Modernize your home with a locally owned and operated business. Our professional designers work with all budgets and manage your project in its entirety with a highly personalized approach. Learn more and schedule up to two free consults at wwww.inspirehrd.com." />
+        <title>Inspire Home Remodeling | Kitchen, bath, sunroom remodeling in central PA. </title>
+        <meta name="description" content="Remodeling simplified. Our specialized consultants are experienced designers and project managers who are with you every step of the way." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
