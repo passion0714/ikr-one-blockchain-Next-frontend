@@ -93,6 +93,15 @@ export default function Home() {
       <Head>
         <title>Inspire Home Remodeling | Kitchen, bath, sunroom remodeling in central PA. </title>
         <meta name="description" content="Remodeling simplified. Our specialized consultants are experienced designers and project managers who are with you every step of the way." />
+        <meta property="og:title" content="Inspire Kitchen Remodeling" />
+        <meta
+          property="og:description"
+          content="Modernize your home with a locally owned company who manages your project in its entirety."
+        />
+        <meta
+          property="og:image"
+          content="https://quantumone.b-cdn.net/IHR-500-png.png"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
