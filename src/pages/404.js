@@ -1,6 +1,6 @@
-export async function getStaticProps() {
+export async function getStaticProps(context) {
   
-  return { props }
+  return { props:{} }
 }
 
 
