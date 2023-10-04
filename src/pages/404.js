@@ -13,7 +13,7 @@ const NotFoundPage = () => {
         </p>
         <input
           type='search'
-          placeholder='Search not yet enabled, please use homepage link below...'
+          placeholder='Search not yet enabled please use homepage link below...'
         />
         <div>
           <Link href='/'>
