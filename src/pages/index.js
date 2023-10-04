@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Inspire Home Remodeling | Learn how we design and build your project.',
+  title: 'Inspire Home Remodeling | Learn how we build your project', 
   description: 'Remodeling simplified. Our specialized consultants are experienced designers and project managers who are with you every step of the way. Build a home transforming Inspire experience',
   category: 'General home remodeling', 
   keywords: ['home remodeling near me', 'home remodeling loan', 'home remodeling ideas', 'project', 'learn', 'build', 'inspire', 'home remodeling contractors near me', 'kitchen remodeling contractors near me', 'home remodeling 17055', 'west shore home', 'home improvement 0 down', 'home remodeling near Harrisburg PA', 'kitchen and bath remodeling contractors', 'home renovation loan calcutor', 'kitchen remodeling 17011', 'home renovation grants', 'home remodeling contractor near 17025', 'home remodeling central PA', 'central pa home pros', 'home pros of central pa', 'home remodeling harrisburg pa', 'kitchen remodeling harrisburg pa', 'bathroom remodeling harrisburg pa', 'home remodeling pros of central pa', 'home remodeling pros of central pa reviews', 'home remodeling pros of central pa llc', 'home remodeling pros of central pa photos', 'whole house remodel contractors near me', 'home remodeling where to start', 'home construction harrisburg pa', 'your bath and kitchen', 'home remodeling designer near me', 'bathroom remodeling near me', 'home renovation central pa', 'examples of home repairs', 'home renovation contractors harrisburg pa', 'basement remodeling' ],
@@ -91,7 +91,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Inspire Home Remodeling</title>
+        <title>Inspire Home Remodeling | Learn how we build your project</title>
         <meta name="description" content="Remodeling simplified. Our specialized consultants are experienced designers and project managers who are with you every step of the way. Build a home transforming Inspire experience. " />
         <meta property="og:title" content="Inspire Kitchen Remodeling" />
         <meta name="keywords" content="home remodeling near me, home remodeling loan,home remodeling ideas, project, learn, build, inspire, home remodeling contractors near me, kitchen remodeling contractors near me, home remodeling 17055, west shore home, home improvement 0 down, home remodeling near Harrisburg PA, kitchen and bath remodeling contractors, home renovation loan calcutor, kitchen remodeling 17011, home renovation grants, home remodeling contractor near 17025, home remodeling central PA, central pa home pros, home pros of central pa, home remodeling harrisburg pa, kitchen remodeling harrisburg pa, bathroom remodeling harrisburg pa, home remodeling pros of central pa, home remodeling pros of central pa reviews, home remodeling pros of central pa llc, home remodeling pros of central pa photos, whole house remodel contractors near me, home remodeling where to start, home construction harrisburg pa, your bath and kitchen, home remodeling designer near me, bathroom remodeling near me, home renovation central pa, examples of home repairs, home renovation contractors harrisburg pa, basement remodeling" />
