@@ -227,7 +227,10 @@ export default function Home() {
           </div>
         </div>
         <div class="col-sm-12 col-lg-6 hero__feat-images">
+          <picture>
+	<source type="image/webp" srcset="image.webp">
           <img src="images/gallery/Gervasini_After.jpg" alt="hero 1" class="hero--image1 img-fluid"/>
+          </picture>
           <img src="images/gallery/Brown_after_3.jpg" alt="hero 2" class="hero--image2 float-end me-0 me-xl-5 img-fluid"/>
         </div>
       </div>
