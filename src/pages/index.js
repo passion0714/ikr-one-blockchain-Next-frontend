@@ -348,7 +348,7 @@ export default function Home() {
         <div class="col-md-12 col-lg-6 order-1 order-lg-2">
           <div class="gallery__wrapper--cta d-flex align-items-center justify-content-center mx-auto">
             <h3 class="display-4 mb-4">
-              Look at what we’ve done!
+              Project build gallery 
             </h3>
             <p class="mb-4 lead">Discover the transforming Inspire experience! </p>
             <a href="#gallery" class="btn-outline btn-sm me-auto">View project gallery</a>
@@ -409,7 +409,7 @@ export default function Home() {
       <div class="row mb-5">
         <div class="col-md-6">
           <div class="process__headline-wrapper me-auto">
-            <h3 class="display-3--title text-body mb-5 mb-lg-1">A simple and streamlined process</h3>
+            <h3 class="display-3--title text-body mb-5 mb-lg-1">Inspire simplifies your project.</h3>
              </div>
              </div>
             
@@ -560,7 +560,7 @@ export default function Home() {
       <div class="row text-center">
         <div class="col-m-12">
           <div class="middle-cta__wrapper d-flex align-items-center justify-content-center mx-auto">
-            <h1 class="display-3">Renovate your home as low as 0% APR</h1>
+            <h1 class="display-3">Learn more and plan your build  </h1>
             <Link class="text-decoration-none mx-auto" href="https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation" passHref> 
             <button class="btn-flat btn-sm" id="get-estimate" onClick="window.location.href='https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation'">
             Explore financing
