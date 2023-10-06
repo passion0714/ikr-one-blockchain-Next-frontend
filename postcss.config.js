@@ -10,7 +10,7 @@ module.exports = {
             "custom-properties": false,
           },
         },
-      "fullhuman/postcss-purgecss":{
+      "@fullhuman/postcss-purgecss":{
           content: [
               './src/pages/**/*.{js,jsx,ts,tsx}',
               './src/components/**/*.{js,jsx,ts,tsx}',
