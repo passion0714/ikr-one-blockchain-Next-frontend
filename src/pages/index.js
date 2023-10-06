@@ -563,7 +563,7 @@ export default function Home() {
             <h1 class="display-3">Learn more and plan your build  </h1>
             <Link class="text-decoration-none mx-auto" href="https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation" passHref> 
             <button class="btn-flat btn-sm" id="get-estimate" onClick="window.location.href='https://mailchi.mp/15df993ae86b/inspire-kitchen-remodeling-free-consultation'">
-            Explore financing
+            Schedule consult
    </button>
             </Link>
           
