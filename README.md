@@ -7,7 +7,7 @@
 - Masonry Layout
 - Sass Scss
 - PurgeCas
-- Supabase Auth and DB
+- Supabase Auth and DB (live demo does not have active DB connection but the basic configuration is included, ready to be forked and wired up according to your unique needs)
 - Nodemailer 
 
 ## This is a work in progress.
