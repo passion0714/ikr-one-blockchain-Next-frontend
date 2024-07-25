@@ -29,7 +29,6 @@ export default function Avatar({ uid, url, size, onUpload }) {
   const uploadAvatar = async (event) => {
     try {
       setUploading(true)
-
       if (!event.target.files || event.target.files.length === 0) {
         throw new Error('You must select an image to upload.')
       }
